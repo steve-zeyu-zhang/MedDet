@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <meta name="description" content="DESCRIPTION META TAG">
+  <meta property="og:title" content="SOCIAL MEDIA TITLE TAG"/>
+  <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG"/>
+  <meta property="og:url" content="URL OF THE WEBSITE"/>
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+  <meta property="og:image" content="static/image/your_banner_image.png" />
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+
+
+  <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG">
+  <meta name="twitter:description" content="TWITTER BANNER DESCRIPTION META TAG">
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+  <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>MedDet</title>
+  <link rel="icon" type="image/x-icon" href="static/images/medical.svg">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+  rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+</head>
+<body>
+
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">MedDet: Generative Adversarial Distillation for Efficient Cervical Disc Herniation Detection</h1>
+            <div class="is-size-5 publication-authors">
+              <!-- Paper authors -->
+              <span class="author-block">
+                <a href="https://steve-zeyu-zhang.github.io/" target="_blank">Zeyu Zhang</a><sup>12*†</sup>,
+              </span>
+
+                <span class="author-block">
+                  <a href="https://www.researchgate.net/scientific-contributions/Nengmin-Yi-2249685869" target="_blank">Nengmin Yi</a><sup>1*</sup>,
+                </span>
+
+                <span class="author-block">
+                  <a href="https://dblp.org/pid/205/0179.html" target="_blank">Shengbo Tan</a><sup>1*</sup>,
+                </span>
+
+                <span class="author-block">
+                  <a href="https://ieeexplore.ieee.org/author/37087137422" target="_blank">Ying Cai</a><sup>1✉</sup>,
+                </span>
+
+                <span class="author-block">
+                  <a href="https://www.researchgate.net/scientific-contributions/Yi-Yang-2208407378" target="_blank">Yi Yang</a><sup>3</sup>,
+                </span>
+
+                <span class="author-block">
+                  <a href="https://www.researchgate.net/profile/Lei-Xu-106" target="_blank">Lei Xu</a><sup>4</sup>,
+                </span>
+
+                <span class="author-block">
+                  <a href="https://pubmed.ncbi.nlm.nih.gov/?term=Li+Q&cauthor_id=38902109" target="_blank">Qingtai Li</a><sup>1</sup>,
+                </span>
+
+                <span class="author-block">
+                  <a href="https://scholar.google.com.hk/citations?user=kCtQkrkAAAAJ" target="_blank">Zhang Yi</a><sup>4</sup>,
+                </span>
+
+                <span class="author-block">
+                  <a href="https://ieeexplore.ieee.org/author/37085795653" target="_blank">Daji Ergu</a><sup>1</sup>,
+                </span>
+
+                <span class="author-block">
+                  <a href="https://yangyangkiki.github.io/" target="_blank">Yang Zhao</a><sup>5</sup>
+                </span>
+
+                  </div>
+
+                  <p style="height: 10px;">&nbsp;</p> 
+                  <div class="is-size-5 publication-authors">
+                    <span class="author-block"><font size="4"><sup>1</sup> <a href="https://english.swun.edu.cn/" target="_blank">Southwest Minzu University</a></font></span>
+                    <span class="author-block"><font size="4"><sup>2</sup> <a href="https://www.anu.edu.au/" target="_blank">The Australian National University</a></font></span><br>
+                    <span class="author-block"><font size="4"><sup>3</sup> <a href="https://www.wchscu.cn/Home.html" target="_blank">West China Hospital</a></font></span>
+                    <span class="author-block"><font size="4"><sup>4</sup> <a href="https://en.scu.edu.cn/" target="_blank">Sichuan University</a></font></span><br>
+                    <span class="author-block"><font size="4"><sup>5</sup> <a href="https://www.latrobe.edu.au/" target="_blank">La Trobe University</a></font></span><br>
+                    <!-- <p style="height: 10px;">&nbsp;</p> 
+                    <span class="author-block"><font size="5"><b><a href="https://miua2024.github.io/" target="_blank">MIUA 2024 Oral</a></b></font></span><br> -->
+                    <p style="height: 10px;">&nbsp;</p>
+                    <span class="eql-cntrb"><small><sup>*</sup>Equal Contribution.</small></span>
+                    <span class="eql-cntrb"><small><sup>✉</sup>Corresponding author.</small></span><br>
+                    <span class="eql-cntrb"><small><sup>†</sup>Work done in Southwest Minzu University.</small></span>
+                  </div>
+
+
+                  <div class="column has-text-centered">
+                    <div class="publication-links">
+                         <!-- Paper link -->
+                      <!-- <span class="link-block">
+                        <a href="https://arxiv.org/pdf/<ARXIV PAPER ID>.pdf" target="_blank"
+                        class="external-link button is-normal is-rounded is-dark">
+                        <span class="icon">
+                          <i class="fas fa-file-pdf"></i>
+                        </span>
+                        <span>Paper</span>
+                      </a>
+                    </span> -->
+
+                    <!-- Supplementary link -->
+                    <!-- <span class="link-block">
+                      <a href="static/pdfs/supplementary_material.pdf" target="_blank"
+                      class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon">
+                        <i class="fas fa-file-pdf"></i>
+                      </span>
+                      <span>Supplementary</span>
+                    </a>
+                  </span> -->
+
+                <!-- ArXiv abstract Link -->
+                <span class="link-block">
+                  <a href="" target="_blank"
+                  class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+
+                  <!-- Github link -->
+                  <span class="link-block">
+                    <a href="https://github.com/steve-zeyu-zhang/MedDet" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Code</span>
+                  </a>
+                </span>
+
+                <!-- Citation Link -->
+                <span class="link-block">
+                  <a href="static/scholar.html" target="_blank"
+                  class="external-link button is-normal is-rounded is-dark">
+                  <span>BibTeX</span>
+                </a>
+              </span>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Teaser video-->
+    <!-- <div class="container">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <div class="publication-video">
+            <iframe src="https://www.youtube.com/embed/N5xhZ9VQIV8?si=itwXgm3ayeYYyyuK" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div> -->
+    <!-- End teaser video -->
+  </div>
+</section>
+
+
+<!-- <div class="news">
+  <h2><font size="4"> <b>News:</b> </font></h2>
+  <ul>
+    <li><b>(06/18/2024)</b> &#127881; Our paper has been selected as <b style="color: red;">oral presentation</b> at <a href="https://miua2024.github.io/"><b>MIUA 2024</b></a>!</li>
+  </ul>
+  <ul>
+    <li><b>(05/14/2024)</b> &#127881; Our paper has been accepted to <a href="https://miua2024.github.io/"><b>MIUA 2024</b></a>!</li>
+  </ul>
+</div>
+
+<p style="height: 50px;">&nbsp;</p> -->
+
+
+<!-- Paper abstract -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Cervical disc herniation (CDH) is a prevalent musculoskeletal disorder that significantly impacts health and requires labor-intensive analysis from experts. Despite advancements in automated detection of medical imaging, two significant challenges hinder the real-world application of these methods. First, the computational complexity and resource demands present a significant gap for real-time application. Second, noise in MRI reduces the effectiveness of existing methods by distorting feature extraction. To address these challenges, we propose three key contributions: Firstly, we introduced <b>MedDet</b>, which leverages the multi-teacher single-student knowledge distillation for model compression and efficiency, meanwhile integrating generative adversarial training to enhance performance. Additionally, we customize the second-order nmODE to improve the model's resistance to noise in MRI. Lastly, we conducted comprehensive experiments on the CDH-1848 dataset, achieving up to a <b>5%</b> improvement in mAP compared to previous methods. Our approach also delivers over <b>5</b> times faster inference speed, with approximately <b>67.8%</b> reduction in parameters and <b>36.9%</b> reduction in FLOPs compared to the teacher model. These advancements significantly enhance the performance and efficiency of automated CDH detection, demonstrating promising potential for future application in clinical practice.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+
+
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3">Overall Method</h2>
+
+      <div class="image-container">
+        <center>
+        <img src="static/images/main.svg" style="width: 80%;">
+        <div class="image-description">
+          <p style="height: 10px;">&nbsp;</p><br>
+          <p>The left subfigure illustrates the overall architecture of our proposed <b>MedDet</b> model, which includes a novel <b>adversarial auxiliary teacher module</b> (<b>AATM</b>) for generative adversarial distillation, an <b>adaptive feature alignment</b> (<b>AFA</b>), and a <b>learnable weighted feature fusion</b> (<b>LWFF</b>) module to fuse features from teacher networks and align them with those of the student network. Additionally, it incorporates a denoising <b>nmODE<sup>2</sup></b> module in the detection head. The right subfigure shows that our method achieves superior efficiency compared to teacher models in terms of FLOPs, parameter count, and inference speed.</p><br>
+        </div>
+        </center>
+      </div>
+</div>
+</div>
+</section>
+
+<section class="hero is-light">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3">Generative Adversarial Knowledge Distillation</h2>
+
+      <div class="image-container">
+        <center>
+        <img src="static/images/gan.png" style="width: 60%;">
+        <div class="image-description">
+          <p style="height: 10px;">&nbsp;</p><br>
+          <p>The diagram of the adversarial auxiliary teacher module (AATM). The <em>F<sub>T</sub><sup>i</sup></em> and <em>F<sub>S</sub><sup>i</sup></em> represent the <em>i</em>-th feature maps outputted by the teacher network and the student network's FPN respectively. <em>G</em> represents the generator.</p><br>
+        </div>
+        </center>
+      </div>
+
+</div>
+</div>
+</section>
+
+
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3">The nmODE<sup>2</sup> Block</h2>
+
+      <div class="image-container">
+        <center>
+        <img src="static/images/nmode.png" style="width: 60%;">
+        <div class="image-description">
+          <p style="height: 10px;">&nbsp;</p><br>
+          <p>The diagram illustrates the architecture of the nmODE<sup>2</sup> block, integrated into the classification and regression heads of the teacher networks.</p><br>
+        </div>
+        </center>
+      </div>
+
+</div>
+</div>
+</section>
+
+
+<section class="hero is-light">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3">Adaptive Feature Alignment (AFA)</h2>
+
+      <div class="image-container">
+        <center>
+        <img src="static/images/afa.png" style="width: 60%;">
+        <div class="image-description">
+          <p style="height: 10px;">&nbsp;</p><br>
+          <p>The figure illustrates the adaptive feature alignment (AFA). Subfigure (a) shows the channel-wise alignment model, while subfigure (b) shows the height-width (<em>HW</em>) alignment model.</p><br>
+        </div>
+        </center>
+      </div>
+
+</div>
+</div>
+</section>
+
+
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3">Learnable Weighted Feature Fusion (LWFF)</h2>
+
+      <div class="image-container">
+        <center>
+        <img src="static/images/lwff.png" style="width: 60%;">
+        <div class="image-description">
+          <p style="height: 10px;">&nbsp;</p><br>
+          <p>The figure illustrates the learnable weighted feature fusion (LWFF) module, where <em>M</em> denotes the multiplication operation and <em>C</em> denotes the concatenation operation.</p><br>
+        </div>
+        </center>
+      </div>
+
+</div>
+</div>
+</section>
+
+
+
+<section class="hero is-light">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3">CDH-1848 Dataset</h2>
+
+      <div class="image-container">
+        <center>
+        <img src="static/images/cdh1848.png" style="width: 60%;">
+        <div class="image-description">
+          <p style="height: 10px;">&nbsp;</p><br>
+          <p>The figure illustrates the pipeline for patient selection, MRI acquisition, and expert annotation following inter-rater reliability.</p><br>
+        </div>
+        </center>
+      </div>
+
+</div>
+</div>
+</section>
+
+
+
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3">Comparative Studies</h2>
+
+      <div class="image-container">
+        <center>
+        <img src="static/images/compare1.svg" style="width: 30%;">
+        <div class="image-description">
+          <p style="height: 10px;">&nbsp;</p><br>
+          <p>The results indicate that our proposed MedDet surpasses other efficient supervised methods and knowledge distillation techniques with the same student network, GFL (MobileNetV2). This demonstrates the superior ability of MedDet to leverage both feature extraction and knowledge transfer, resulting in enhanced performance in CDH detection.</p><br>
+        </div>
+        </center>
+      </div>
+
+      <p style="height: 50px;">&nbsp;</p>
+
+      <div class="image-container">
+        <center>
+        <img src="static/images/compare2.svg" style="width: 45%;">
+        <div class="image-description">
+          <p style="height: 10px;">&nbsp;</p><br>
+          <p>The table presents a comparison between our model and the teacher models, demonstrating that our method is significantly lighter and faster while achieving similar performance. This highlights our model's exceptional balance between performance and efficiency.</p><br>
+        </div>
+        </center>
+      </div>
+
+</div>
+</div>
+</section>
+
+<section class="hero is-light">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3">Ablation Studies</h2>
+
+      <div class="image-container">
+        <center>
+        <img src="static/images/ablation1.svg" style="width: 35%;">
+        <div class="image-description">
+          <p style="height: 10px;">&nbsp;</p><br>
+          <p>The table shows the results of the ablation study on the proposed architecture components including nmODE<sup>2</sup>, LWFF, and AATM, highlighting the significant contributions of each customization to the overall performance.</p><br>
+        </div>
+        </center>
+      </div>
+
+      <p style="height: 50px;">&nbsp;</p>
+
+      <div class="image-container">
+        <center>
+        <img src="static/images/ablation2.svg" style="width: 43%;">
+        <div class="image-description">
+          <p style="height: 10px;">&nbsp;</p><br>
+          <p>The table shows the results of different customizations of nmODE<sup>2</sup> across various components of the overall architecture, highlighting the impact on performance when adapted to the detection head.</p><br>
+        </div>
+        </center>
+      </div>
+
+      <p style="height: 50px;">&nbsp;</p>
+
+      <div class="image-container">
+        <center>
+        <img src="static/images/ablation3.svg" style="width: 20%;">
+        <div class="image-description">
+          <p style="height: 10px;">&nbsp;</p><br>
+          <p>The table shows the results of different feature alignment and fusion methods, indicating that our proposed LWFF effectively aligns and fuses features for knowledge distillation.</p><br>
+        </div>
+        </center>
+      </div>
+</div>
+</div>
+</section>
+
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3">Visualization</h2>
+
+      <div class="image-container">
+        <center>
+        <img src="static/images/vis.svg" style="width: 60%;">
+        <div class="image-description">
+          <p style="height: 10px;">&nbsp;</p><br>
+          <p>The visualization shows that our MedDet surpasses other efficient detection methods, demonstrating its superior ability in accurate CDH detection.</p><br>
+        </div>
+        </center>
+      </div>
+
+</div>
+</div>
+</section>
+
+<!-- Paper poster -->
+<!-- <section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title">Poster</h2>
+
+      <iframe  src="static/pdfs/sample.pdf" width="100%" height="550">
+          </iframe>
+        
+      </div>
+    </div>
+  </section> -->
+<!--End paper poster -->
+
+
+<!--BibTex citation -->
+  <!-- <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      <pre><code>@article{zhang2024jointvit,
+  title={JointViT: Modeling Oxygen Saturation Levels with Joint Supervision on Long-Tailed OCTA},
+  author={Zhang, Zeyu and Qi, Xuyin and Chen, Mingxi and Li, Guangxi and Pham, Ryan and Zuhair, Ayub and Berry, Ella and Liao, Zhibin and Siggs, Owen and Mclaughlin, Robert and others},
+  journal={arXiv preprint arXiv:2404.11525},
+  year={2024}
+}</code></pre>
+    </div>
+</section> -->
+<!--End BibTex citation -->
+
+
+  <!-- <footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+
+          <p>
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+            You are free to borrow the of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer> -->
+
+<!-- Statcounter tracking code -->
+  
+<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+    <!-- End of Statcounter Code -->
+
+  </body>
+  </html>
