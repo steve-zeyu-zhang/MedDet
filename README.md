@@ -13,7 +13,7 @@
 
 _Cervical disc herniation (CDH) is a prevalent musculoskeletal disorder that significantly impacts health and requires labor-intensive analysis from experts. Despite advancements in automated detection of medical imaging, two significant challenges hinder the real-world application of these methods. First, the computational complexity and resource demands present a significant gap for real-time application. Second, noise in MRI reduces the effectiveness of existing methods by distorting feature extraction. To address these challenges, we propose three key contributions: Firstly, we introduced <b>MedDet</b>, which leverages the multi-teacher single-student knowledge distillation for model compression and efficiency, meanwhile integrating generative adversarial training to enhance performance. Additionally, we customize the second-order nmODE to improve the model's resistance to noise in MRI. Lastly, we conducted comprehensive experiments on the CDH-1848 dataset, achieving up to a <b>5%</b> improvement in mAP compared to previous methods. Our approach also delivers over <b>5</b> times faster inference speed, with approximately <b>67.8%</b> reduction in parameters and <b>36.9%</b> reduction in FLOPs compared to the teacher model. These advancements significantly enhance the performance and efficiency of automated CDH detection, demonstrating promising potential for future application in clinical practice._
 
-![main](static/images/main.svg)
+<img src="static/images/main.svg" alt="main" style="width:100%;">
 
 ## Citation
 
