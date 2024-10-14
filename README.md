@@ -1,5 +1,5 @@
 <div align="center"><h1> MedDet: Generative Adversarial Distillation for Efficient Cervical Disc Herniation Detection <br>
-  <!-- <sub><sup><a href="https://miua2024.github.io/">MIUA 2024 Oral</a></sup></sub>  -->
+  <sub><sup><a href="https://ieeebibm.org/BIBM2024/">BIBM 2024 Oral</a></sup></sub> 
 </h1>
 
 [Zeyu Zhang](https://steve-zeyu-zhang.github.io)<sup>\*</sup>, [Nengmin Yi](https://www.researchgate.net/scientific-contributions/Nengmin-Yi-2249685869)<sup>\*</sup>, [Shengbo Tan](https://dblp.org/pid/205/0179.html)<sup>\*</sup>, [Ying Cai](https://ieeexplore.ieee.org/author/37087137422)<sup>✉</sup>, [Yi Yang](https://www.researchgate.net/scientific-contributions/Yi-Yang-2208407378), [Lei Xu](https://www.researchgate.net/profile/Lei-Xu-106), [Qingtai Li](https://pubmed.ncbi.nlm.nih.gov/?term=Li+Q&cauthor_id=38902109), [Zhang Yi](https://scholar.google.com.hk/citations?user=kCtQkrkAAAAJ), [Daji Ergu](https://ieeexplore.ieee.org/author/37085795653), [Yang Zhao](https://yangyangkiki.github.io/)
@@ -18,4 +18,10 @@ _Cervical disc herniation (CDH) is a prevalent musculoskeletal disorder that sig
 ## Citation
 
 ```
+@article{zhang2024meddet,
+  title={MedDet: Generative Adversarial Distillation for Efficient Cervical Disc Herniation Detection},
+  author={Zhang, Zeyu and Yi, Nengmin and Tan, Shengbo and Cai, Ying and Yang, Yi and Xu, Lei and Li, Qingtai and Yi, Zhang and Ergu, Daji and Zhao, Yang},
+  journal={arXiv preprint arXiv:2409.00204},
+  year={2024}
+}
 ```
