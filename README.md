@@ -15,6 +15,10 @@ _Cervical disc herniation (CDH) is a prevalent musculoskeletal disorder that sig
 
 <img src="static/images/main.svg" alt="main" style="width:100%;">
 
+## News
+
+<b>(10/14/2024)</b> &#127881; Our paper has been accepted for an <b style="color: red;">oral presentation</b> at <a href="https://ieeebibm.org/BIBM2024/"><b>BIBM 2024</b></a>!
+
 ## Citation
 
 ```
